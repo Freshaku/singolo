@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;   
+  }
+  
+  html{
+    font-size: 15px;
+  }
+  
+  body{
+    font-family: "Lato-Regular";
+    font-weight: 400;
+    color: black;
+  }
+  
+  .wrapper{
+    position: absolute;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  
+  body, h1, h2, h3, h4, p, ul, ol, li, figure, figcaption, blockquote,
+  dl, dd {
+     margin: 0;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    p {
+      margin: 0;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+    }
+  
+  .first_line_orange{
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+  }
+  
+  .main_title{
+    color:#f0d8d9;
+    font-family: 'Lato black', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-left: 40px;
+    letter-spacing: -0.25px;
+    line-height: 35px;
+  }
+  
+  .main_description{
+    color:#f0d8d9;
+    font-family: 'Lato Light', Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding-top: 21px;
+    padding-left: 40px;
+    letter-spacing: 0.00000000001px;
+    line-height: 29px;
+  }
+  
+  .layout-2-column{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 74px;
+    margin-left: 40px;
+  }
+  
+  .contact_information{
+    flex: 1;
+  }
+  
+  .contact_title{
+    color: #f0d8d9;
+    font-family: 'Lato black', Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    line-height: 8px;
+    padding-left: 13px;
+    margin-top: -2px;
+  }
+  
+  .contact_description{
+    color: #f0d8d9;
+    font-family: 'Lato Regular', Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 13px;
+    letter-spacing: -0.15px;
+    line-height: 22px;
+  }
+  
+  .contact_item{
+    position: relative;
+    margin-bottom: -17px;
+    margin-top: 21px;
+    margin-left: 2px;
+  }
+  
+  .social_icon{
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    z-index: 1;
+    display: block;
+    height: 12px;
+    width: 13px;
+  }
+  
+  .contact__link {
+    margin-left: 35px;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    text-decoration: none;
+    color: #f0d8d9;
+  }
+  
+  .contact_form{
+    flex: 2;
+  }
+  
+  input,textarea {
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-bottom: 8px;
+    margin-top: -6px;
+    margin-bottom: 23px;
+    width: 619px;
+    background-color: #d6564f;
+    border: none;
+    border-radius: 5px;
+    color: #f48c8f;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+    letter-spacing: 0.144px;
+    outline: none;
+  }
+  
+  textarea {
+    height: 203px;
+    resize: none;
+  }
+  
+  input:focus,textarea:focus {
+    border: 1px solid #f0d8d9;
+  }
+  
+  input::placeholder,textarea::placeholder{
+    color: #f48c8f;
+  }
+  
+  .button_form {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding: 2px;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid #d6564f;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    color: #f48c8f;
+  
+  }
+  
+  .button_form:hover {
+    background-color: #f48c8f;
+    color: #f0f0f0;
+    border-color: #f48c8f;
+  }
+  
+  
+  .second_line_orange{
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+  }
+  
+  .footer{
+    width: 1020px;
+    height: 76px;
+    padding: 22px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d303a;
+  }
+  
+  .copyright{
+    color: #666d89;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 6px;
+    padding-left: 2px;
+  }
+  
+  .social {
+    padding-top: 0;
+    display: flex;
+  }
+  
+  .social__item {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #666d89;
+    border-radius: 50%;
+  }
+  
+  .social__item:last-child {
+    margin-right: 0;
+  }
+  
+  .social__item:hover {
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  .icon {
+    height: 14px;
+  }
+
+  
